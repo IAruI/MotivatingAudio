@@ -1,0 +1,25 @@
+<html>
+<body>
+<p>
+Playing audio to motivate you
+</p>
+
+</body>
+
+
+<script>
+
+
+	(function(){
+   var myAudio = new Audio();        // create the audio object
+myAudio.src = "chrome.extension.getURL('dowork.mp3'); // assign the audio file to it
+myAudio.play();                   // play the music
+    setTimeout(arguments.callee, 1000);
+})();
+
+
+
+
+</script>
+
+</html>

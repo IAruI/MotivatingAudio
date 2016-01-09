@@ -1,0 +1,19 @@
+{
+	"manifest_version": 2,
+	"name": "Motivator app",
+	"short_name": "Motivator",
+	"version": "1.0",
+	"description": "Sends an audio to motivate you",
+	"icons": { 
+		"16": "16dj.png", 
+		"48": "48dj.png",
+		"128": "128dj.png"
+	},
+	"web_accessible_resources": [
+		"dowork.mp3",
+		"128dj.png"
+	],
+	"background": {
+        "scripts": ["motivate.js"]
+    }
+}
